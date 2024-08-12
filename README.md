@@ -1,1 +1,1 @@
-Esse projeto é é o desafio final do curso ONE da Alura TURMA 7
+Esse projeto é o desafio final do curso ONE da Alura TURMA 7
