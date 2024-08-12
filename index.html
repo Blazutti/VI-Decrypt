@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador - Desafio Alura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/VI Icon.png" type="image/x-icon">
+</head>
+<body>
+
+    <main class="main-container"></main>
+        <header class="cabecalho">
+            <img src="imagens/Logo VI.png" alt="Logo VI">
+            <h1>A sua mensagem é:</h1>
+        </header>
+
+    <div class="container-input">
+        <div class="input">
+             <textarea id="input-texto" placeholder="Digite seu texto aqui..."></textarea>
+             <p><img class="input-aviso" src="imagens/Group.png"width=14px alt="Aviso"> Apenas letras minúsculas e sem acento!</p>
+        </div>
+
+    <div id="output">
+        <p></p>
+        <h2>Nenhuma mensagem encontrada</h2>
+        <p></p>
+        <span>Digite um texto que você deseja criptografar ou descriptografar</span>
+        <img src="imagens/JL Logo.png" alt="JL Logo">
+        
+    </div>
+    </div>
+
+    <div class="buttons">
+        <div class="container-btn">
+            <button onclick="criptografar()" class="bnt-criptografar">Criptografar</button>
+            <button onclick="descriptografar()"class="bnt-descriptografar">Descriptografar</button>
+        </div> 
+    </div>
+    </main>
+
+    <footer class="rodape">
+        <div class="icons">
+            <h3><img src="imagens/Logo VI.png" alt="Logo VI" width="30px"> Decrypt by: </h3>
+            <a href=" https://github.com/Blazutti">Breno Blazute <ion-icon name="logo-github"></ion-icon></a>
+        </div>  
+    </footer>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

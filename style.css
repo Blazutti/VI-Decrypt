@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --corprincipal: #875861;
+    --corsecundaria: white;
+    --cortitulo: white;
+}
+
+body{
+    background-image: url(imagens/background4.png);
+    background-color:#875861;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5%;
+}
+
+.cabecalho h1{
+    display: flex;
+    padding-top: 3%;
+    margin-right: 3%;
+    color: var(--cortitulo);
+}
+
+.cabecalho img{
+    max-width: 70px;
+    max-height: 40px;
+    width: auto;
+    height: auto;
+}
+
+.container-input{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+
+.container-input .input{
+    backdrop-filter: blur(10px) saturate(100%);
+    background-color: rgba(255,255,255, 0.2);
+    border-radius: 20px;
+    width: 750px;
+    height: 450px;
+    color: white;
+
+}
+
+textarea::placeholder {
+    color: white;
+    font-style: oblique;
+    text-transform: lowercase;
+}
+
+#input-texto{
+    width: 725px;
+    height: 430px;
+    font-size: 20px;
+    color: white;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 15px;
+    text-transform: lowercase;
+    resize: none;    
+}
+
+#input-aviso {
+    font-size: 10px;
+    margin-left: 10px;;
+}
+
+#output{
+    backdrop-filter: blur(10px) saturate(100%);
+    background-color: rgba(255,255,255, 0.2);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width:  360px;
+    height:  500px;
+    margin-right: 3%;
+}
+
+#output textarea{
+    width: 340px;
+    height: 500px;
+
+}
+
+#output h2{
+    margin-top: 30%;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+#output span{
+    margin-top: 5%;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+#output img{
+    max-width: 380px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    margin-top: 22.2%;
+    margin-left: 0.2%;
+    border-radius: 20px
+}
+
+.container-btn button{
+    border: 1px solid white;
+    backdrop-filter: blur(10px) saturate(100%);
+    background-color: rgba(135, 88, 97, 0.6);
+    border-radius:10px;
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-inline: -130px;
+    margin-left: 11%;
+    cursor: pointer;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.2);
+}
+
+.container-btn button:hover{
+    border: 1px solid white;
+    backdrop-filter: blur(10px) saturate(100%);
+    background-color: rgba(109, 74, 81, 0.8);
+    transition: 0.5s all;
+}
+
+.btn-copiar{
+    border: 1px solid white;
+    backdrop-filter: blur(10px) saturate(100%);
+    background-color: rgba(135, 88, 97, 0.6);
+    border-radius:10px;
+    text-decoration: none;
+    color: white;
+    width: 180px;
+    height: 60px;
+    margin-bottom: 15%;
+    margin-left: 25%;
+    cursor: pointer;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn-copiar:hover{
+    border: 1px solid white;
+    backdrop-filter: blur(10px) saturate(100%);
+    background-color: rgba(109, 74, 81, 0.8);
+    border-radius:10px;
+    text-decoration: none;
+    color: white;
+    width: 180px;
+    height: 60px;;
+    margin-bottom: 15%;
+    margin-left: 25%;
+    cursor: pointer;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.2);
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    padding: 2%;
+    margin-right: 40px;
+    margin-top: 30px;
+    background: transparent;
+    color: white;
+}
+
+.rodape a{
+   font-size: 25px;
+   margin-right: 10px;
+   text-decoration: none;
+   color: white
+}
+
+.rodape a:hover{
+    font-size: 25px;
+    color:#ADB5BD; 
+}
+
+.rodape h3{
+    font-size: 25px;
+    text-decoration: none;
+    color: white
+ }
+
+.icons ion-icon{
+    width: 25px;
+    height: 25px;
+    color: white
+}
+
+.icons ion-icon:hover{
+    color: #ADB5BD;    
+}
